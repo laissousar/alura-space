@@ -10,5 +10,60 @@
     --azul-botao: #167BF7;
     --cinza: #C0C0C0;
 
-    
+}
+body {
+    color: var(--branco-principal);
+    background-color: var(--cor-de-fundo);
+}
+.principal {
+    background-image: url(assents/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+
+}
+.principal__conteiner {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 40%;
+    margin: 10.55% 0 0 5%;
+    padding: 0 38px;
+}
+.principal__conteiner__texto {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.75rem;
+    text-align: center;
+}
+.principal__conteiner__img {
+
+}
+.principal__conteiner__botao1 {
+   padding: 16px;
+   font-family: 'Inter', sans-serif;
+   font-weight: 400;
+   font-size: 1rem;
+   color: var(--branco-principal);
+   background-color: var(--azul-botao);
+   margin: 54px 0 16px 0;
+   border-radius: 8px;
+   border: none;
+}
+.principal__conteiner__botao2 {
+    background-color: transparent;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--branco-principal);
+    border:1px solid var(--branco-principal);
+    padding: 16px;
+    border-radius: 8px;
+}
+.principal__conteiner__legenda {
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    text-align: center;
 }
