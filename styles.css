@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --cor-de-fundo: #00030C;
+    --branco-principal: #FFFFFF;
+    --branco-secundario:#F9F9F9;
+    --azul-botao: #167BF7;
+    --cinza: #C0C0C0;
+
+    
+}
